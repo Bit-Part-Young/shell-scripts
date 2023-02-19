@@ -1,4 +1,6 @@
 #!/bin/bash
 
+# 在wsl ubuntu hp中并行运行lammps
+
 mpirun -n $1 lmp_mpi < in.$2
 # lmp_serial < in.$1
