@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# 用于下载思源或pi上的文件
+
 if [ $1 == -s ]; then
     scp -r mseklt@sydata.hpc.sjtu.edu.cn:"$2" "$3"
 
