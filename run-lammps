@@ -1,0 +1,4 @@
+#!/bin/bash
+
+mpirun -n $1 lmp_mpi < in.$2
+# lmp_serial < in.$1

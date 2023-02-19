@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ $1 == -s ]; then
+    scp -r mseklt@sydata.hpc.sjtu.edu.cn:"$2" "$3"
+
+elif [ $1 == -p ]; then
+    scp -r mseklt@data.hpc.sjtu.edu.cn:"$2" "$3"
+fi
